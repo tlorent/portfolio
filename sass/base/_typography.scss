@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.7;
-    color: $color-black;
+    color: colo(dark-black);
 
     // Give the entire page some whitespace on all sides.
     padding: 2rem;
@@ -71,7 +71,7 @@ body {
         display: block;
         height: .3rem;
         width: 10rem;
-        background-color: $color-black;
+        background-color: color(dark-black);
         margin: 0 auto;
     }
 }

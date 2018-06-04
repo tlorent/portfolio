@@ -1,30 +1,27 @@
-// COLOURS
+// COLORS
 
-$color-grey: #eee;
-$color-grey-light: #fcfcfc;
-$color-grey-dark: #bebebe;
-$color-black: #131313;
-$color-white: #fff;
-
-$spotify-green: #84bd00;
-$spotify-grey-solid: #828282;
-$spotify-sand-solid: #ecebe8;
-
-$soundcloud-orange:#FF5500;
-$soundcloud-dark: #AF1463;
-
-$linkedin: #007AB9;
-$mail: #08315F;
-
-$css3: #2AA9E0;
-$html: #CB6139;
-$js: #F0DB4F;
-$gulp: #EB4A4B;
-$npm: #CB3837;
-$git: #F34F29;
-$php: #617CBE;
-$sql: #00618B;
-$sass: #CC6699;
+$colors: (
+    grey: #eee,
+    grey-light: #fcfcfc,
+    grey-dark: #bebebe,
+    dark-black: #131313,
+    spotify-green: #84bd00,
+    spotify-grey-solid: #828282,
+    spotify-sand-solid: #ecebe8,
+    soundcloud-orange: #FF5500,
+    soundcloud-dark: #AF1463,
+    linkedin: #007AB9,
+    mail: #08315F,
+    css3: #2AA9E0,
+    html: #CB6139,
+    js: #F0DB4F,
+    gulp: #EB4A4B,
+    npm: #CB3837,
+    git: #F34F29,
+    php: #617CBE,
+    sql: #00618B,
+    sass: #CC6699
+);
 
 // DISPLAY SETTINGS
 
@@ -41,9 +38,9 @@ $gutter-horizontal: 6rem;
 // BREAKPOINTS FOR MEDIA QUERIES
 
 $breakpoints: (
-    'tiny': 437px,
-    'small': 783px,
-    'medium': 987px,
-    'large': 1088px,
-    'huge': 1211px
+    tiny: 27em,
+    small: 49em,
+    medium: 62em,
+    large: 68em,
+    huge: 76em
 )

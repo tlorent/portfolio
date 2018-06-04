@@ -3,7 +3,7 @@
     text-align: center;
     // margin-top: -20vh;
     padding: $padding-sections;
-    background-color: $color-grey-light;
+    background-color: color(grey-light);
 
     &__list {
         list-style: none;
@@ -18,31 +18,31 @@
         padding: .5rem;
         transition: color .2s ease-out;
         &--css:hover {
-            color: $css3;
+            color: color(css3);
         }
         &--html:hover {
-            color: $html;
+            color: color(html);
         }
         &--js:hover {
-            color: $js;
+            color: color(js);
         }
         &--gulp:hover {
-            color: $gulp;
+            color: color(gulp);
         }
         &--npm:hover {
-            color: $npm;
+            color: color(npm);
         }
         &--git:hover {
-            color: $git;
+            color: color(git);
         }
         &--php:hover {
-            color: $php;
+            color: color(php);
         }
         &--sql:hover {
-            color: $sql;
+            color: color(sql);
         }
         &--sass:hover {
-            color: $sass;
+            color: color(sass);
         }
     }
 }
@@ -53,7 +53,7 @@
     text-align: center;
     padding: $padding-sections;
     padding-bottom: 10rem;
-    background-color: $color-grey;
+    background-color: color(grey);
     // clip-path: polygon(0% 0%, 100% 25vh, 100% 100%, 0% 100%);
 
     &__images {
@@ -64,7 +64,7 @@
 
         &:hover {
             transform: scale(1.1);
-            box-shadow: 0 .2rem 1.5rem $color-black;
+            box-shadow: 0 .2rem 1.5rem color(dark-black);
         }
 
         @include respond-to(tiny) {
@@ -85,7 +85,7 @@
     opacity: 0;
     text-align: center;
     padding: 10rem 1.5rem;
-    background-color: $color-grey-light;
+    background-color: color(grey-light);
 
     @include respond-to(tiny) {
         padding: 10rem 0rem;
@@ -106,7 +106,7 @@
             font-style: italic;
             padding: 2rem 3rem;
             border-radius: 3px;
-            box-shadow: 0 .5rem 1.5rem rgba($color-black, .15);
+            box-shadow: 0 .5rem 1.5rem rgba(color(dark-black), .15);
             transition: transform .2s;
 
             @include respond-to(tiny) {
@@ -155,10 +155,10 @@
 
         a {
             text-decoration: none;
-            color: $color-black;
+            color: color(dark-black);
 
             @include respond-to(medium) {
-                color: $color-grey-dark;
+                color: color(grey-dark);
             }
         }
 
@@ -173,15 +173,15 @@
         }
 
         &--git:hover {
-            color: $color-black;
+            color: color(dark-black);
         }
 
         &--mail:hover {
-            color: $mail;
+            color: color(mail);
         }
 
         &--linkedin:hover {
-            color: $linkedin;
+            color: color(linkedin);
         }
     }
 }

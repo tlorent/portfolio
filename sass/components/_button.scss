@@ -4,7 +4,7 @@
     &:visited {
         text-decoration: none;
         text-transform: uppercase;
-        color: $color-black;
+        color: color(dark-black);
         display: inline-block;
         border-radius: 10rem;
         padding: 1.2rem 2.2rem;
@@ -21,12 +21,12 @@
 
     &:hover {
         transform: translateY(-.2rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .4);
+        box-shadow: 0 1rem 2rem rgba(color(dark-black), .4);
     }
 
     &:active {
         transform: translateY(.1rem);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .4);
+        box-shadow: 0 .5rem 1rem rgba(color(dark-black), .4);
     }
 
     &--white {

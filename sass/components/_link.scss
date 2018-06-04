@@ -5,23 +5,23 @@
     padding: .3rem 0;
 
     &--spotify {
-        background: linear-gradient(to right, $spotify-green, $spotify-sand-solid);
+        background: linear-gradient(to right, color(spotify-green), color(spotify-sand-solid));
         // Paint the linear-gradient tbackground within the foreground text.
         background-clip: text;
         -webkit-background-clip: text;
 
         &:hover {
-            border-bottom: 2px solid $spotify-green;
+            border-bottom: 2px solid color(spotify-green);
         }
     }
 
     &--soundcloud {
-        background: linear-gradient(to right, $soundcloud-orange, $soundcloud-dark);
+        background: linear-gradient(to right, color(soundcloud-orange), color(soundcloud-dark));
         background-clip: text;
         -webkit-background-clip: text;
         
         &:hover {
-            border-bottom: 2px solid $soundcloud-orange;
+            border-bottom: 2px solid color(soundcloud-orange);
         }
     }
 }
