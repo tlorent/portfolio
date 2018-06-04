@@ -1,0 +1,196 @@
+.section-about {
+    opacity: 0;
+    text-align: center;
+    // margin-top: -20vh;
+    padding: $padding-sections;
+    background-color: $color-grey-light;
+
+    &__list {
+        list-style: none;
+        margin-top: 3rem;
+        li {
+            display: inline;
+        }
+    }
+
+    &__skills {
+        font-size: 4rem;
+        padding: .5rem;
+        transition: color .2s ease-out;
+        &--css:hover {
+            color: $css3;
+        }
+        &--html:hover {
+            color: $html;
+        }
+        &--js:hover {
+            color: $js;
+        }
+        &--gulp:hover {
+            color: $gulp;
+        }
+        &--npm:hover {
+            color: $npm;
+        }
+        &--git:hover {
+            color: $git;
+        }
+        &--php:hover {
+            color: $php;
+        }
+        &--sql:hover {
+            color: $sql;
+        }
+        &--sass:hover {
+            color: $sass;
+        }
+    }
+}
+
+.section-projects {
+    opacity: 0;
+    // margin-top: -25vh;
+    text-align: center;
+    padding: $padding-sections;
+    padding-bottom: 10rem;
+    background-color: $color-grey;
+    // clip-path: polygon(0% 0%, 100% 25vh, 100% 100%, 0% 100%);
+
+    @include small {
+
+    }
+
+    &__images {
+        margin-top: 2rem;
+        width: 80%;
+        height: auto;
+        transition: all .3s ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 .2rem 1.5rem $color-black;
+        }
+
+        @include small {
+            width: 70%;
+        }
+
+        @include phablet {
+            width: 60%;
+        }
+
+        @include tablet {
+            width: 50%;
+        }
+    }
+}
+
+.section-motivation {
+    opacity: 0;
+    text-align: center;
+    padding: 10rem 1.5rem;
+    background-color: $color-grey-light;
+
+    @include small {
+        padding: 10rem 0rem;
+    }
+
+    &__list {
+        opacity: 0;
+        list-style: none;
+        margin-top: 3rem;
+
+        li {
+            // background-color: rgba($color-grey, .4);
+            font-size: 1.6rem;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 3rem;
+            text-align: center;
+            width: 100%;
+            font-style: italic;
+            padding: 2rem 3rem;
+            border-radius: 3px;
+            box-shadow: 0 .5rem 1.5rem rgba($color-black, .15);
+            transition: transform .2s;
+
+            @include small {
+                font-size: 1.7rem;
+                width: 80%;
+                margin-left: 10%;
+            }
+            
+            @include phablet {
+                font-size: 1.8rem;
+                width: 70%;
+                margin-left: 15%;
+            }
+
+            @include medium {
+                font-size: 2rem;
+                width: 60%;
+                margin-left: 20%;
+            }
+
+            @include desktop {
+                width: 50%;
+                margin-left: 25%;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    &__icons {
+        opacity: 0;
+        list-style: none;
+        margin-top: 2rem;
+        font-size: 3rem;
+
+        @include tablet {
+            font-size: 3.5rem;
+        }
+
+        li {
+            display: inline;
+            padding: 0 .6rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-black;
+
+            @include tablet {
+                color: $color-grey-dark;
+            }
+        }
+
+        &--git,
+        &--mail,
+        &--linkedin {
+            transition: all .2s ease-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &--git:hover {
+            color: $color-black;
+        }
+
+        &--mail:hover {
+            color: $mail;
+        }
+
+        &--linkedin:hover {
+            color: $linkedin;
+        }
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}

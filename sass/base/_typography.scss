@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: $color-black;
+
+    // Give the entire page some whitespace on all sides.
+    padding: 2rem;
+
+    @include small {
+        padding: 3rem;
+    }
+}
+
+.heading-primary {
+
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6rem;
+    
+    &--main {
+        display: block;
+        font-weight: 700;
+        font-size: 4rem;
+        animation: moveInRight 1s ease-out;
+
+        @include phablet {
+            font-size: 5rem;
+        }
+        
+        @include tablet {
+            font-size: 6rem;
+        }
+
+        @include medium {
+            font-size: 7rem;
+        }
+
+        @include desktop {
+            font-size: 8rem;
+        }
+    }
+
+    &--sub {
+        display: block;
+        font-size: 1.5rem;
+        animation: moveInLeft 1s ease-out;
+
+        @include phablet {
+            letter-spacing: .1rem;
+            font-size: 1.8rem;
+        }
+
+        @include tablet {
+            letter-spacing: .2rem;
+        }
+
+        @include medium {
+            font-size: 2.2rem;
+            letter-spacing: .4rem;
+        }
+    }
+}
+
+.heading-secondary {
+    font-weight: 700;
+    font-size: 5.5rem;
+    letter-spacing: .1rem;
+
+    &::after {
+        content: ' ';
+        display: block;
+        height: .3rem;
+        width: 10rem;
+        background-color: $color-black;
+        margin: 0 auto;
+    }
+}
+
+.copy {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    width: 100%;
+    font-weight: 200;
+    padding: 0 1rem;
+
+    @include small {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    @include phablet {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    @include medium {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    &--large {
+        font-size: 1.9rem;
+
+        @include tablet {
+            font-size: 2.2rem;
+        }
+
+        @include medium {
+            font-size: 2.6rem;
+        }
+    }
+
+    &--small {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+    }
+}
+
+.heading-tertiary {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}

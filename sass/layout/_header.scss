@@ -1,0 +1,17 @@
+.header {
+    height: 95vh;
+    // background-color: $color-grey;
+    background-image: url('../img/wall-min.jpg');
+    background-size: cover;
+    background-position: center;
+    // clip-path: polygon(0% 0%, 100% 0%, 100% 75vh, 0% 100%);
+
+    &__text-box {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        
+        transform: translate(-50%, -50%);
+    }
+}
