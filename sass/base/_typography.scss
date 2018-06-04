@@ -7,7 +7,7 @@ body {
     // Give the entire page some whitespace on all sides.
     padding: 2rem;
 
-    @include small {
+    @include respond-to(small) {
         padding: 3rem;
     }
 }
@@ -23,19 +23,19 @@ body {
         font-size: 4rem;
         animation: moveInRight 1s ease-out;
 
-        @include phablet {
+        @include respond-to(small) {
             font-size: 5rem;
         }
         
-        @include tablet {
+        @include respond-to(medium) {
             font-size: 6rem;
         }
 
-        @include medium {
+        @include respond-to(large) {
             font-size: 7rem;
         }
 
-        @include desktop {
+        @include respond-to(huge) {
             font-size: 8rem;
         }
     }
@@ -45,16 +45,16 @@ body {
         font-size: 1.5rem;
         animation: moveInLeft 1s ease-out;
 
-        @include phablet {
+        @include respond-to(small) {
             letter-spacing: .1rem;
             font-size: 1.8rem;
         }
 
-        @include tablet {
+        @include respond-to(medium) {
             letter-spacing: .2rem;
         }
 
-        @include medium {
+        @include respond-to(large) {
             font-size: 2.2rem;
             letter-spacing: .4rem;
         }
@@ -83,17 +83,17 @@ body {
     font-weight: 200;
     padding: 0 1rem;
 
-    @include small {
+    @include respond-to(tiny) {
         width: 80%;
         margin-left: 10%;
     }
 
-    @include phablet {
+    @include respond-to(small) {
         width: 60%;
         margin-left: 20%;
     }
 
-    @include medium {
+    @include respond-to(large) {
         width: 50%;
         margin-left: 25%;
     }
@@ -101,11 +101,11 @@ body {
     &--large {
         font-size: 1.9rem;
 
-        @include tablet {
+        @include respond-to(medium) {
             font-size: 2.2rem;
         }
 
-        @include medium {
+        @include respond-to(large) {
             font-size: 2.6rem;
         }
     }

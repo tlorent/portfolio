@@ -38,10 +38,12 @@ $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
 
-// BREAKPOINTS
+// BREAKPOINTS FOR MEDIA QUERIES
 
-$desktop-width: 1211px;
-$medium-width: 1088px;
-$tablet-width: 987px;
-$phablet-width: 783px;
-$small-width: 437px;
+$breakpoints: (
+    'tiny': 437px,
+    'small': 783px,
+    'medium': 987px,
+    'large': 1088px,
+    'huge': 1211px
+)

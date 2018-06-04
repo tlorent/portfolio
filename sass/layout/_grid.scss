@@ -22,21 +22,32 @@
         }
     }
     
+    // Take the entire width of a row, subtract the horizontal space between each column and divide that by two to get the width of one column.
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
     }
+
+    // Two times the horizontal gutter because there are two gutters between all the columns. Divide by three to get the width of one column.
     .col-1-of-3 {
         width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
     }
+
+    // Two times the width of the simple 1-of-3 column (because you want 2-of-3, not 1-of-3). Add horizontal gutter that is between the simple 1-of-3 columns (this makes sure that you have "two of 1-of-3" columns).
     .col-2-of-3 {
         width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
     }
+
+    // Three times the horizontal gutter, because there are three gutters between all the columns. Divide by four to get the width of one column.
     .col-1-of-4 {
         width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
     }
+
+    // Two times a col-1-of-4, plus add the horizontal gutter that is between two columns to get two "1-of-4" columns.
     .col-2-of-4 {
         width: calc(2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
     }
+
+    // Three times a col-1-of-4, plus two times the horizontal gutter that is between three columns so you have three "1-of-4" columns.
     .col-3-of-4 {
         width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
     }

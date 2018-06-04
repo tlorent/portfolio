@@ -13,7 +13,7 @@
         transition: all .2s ease-out;
         animation: moveInBottom 1s ease-out backwards .8s;
 
-        @include small {
+        @include respond-to(tiny) {
             padding: 1.5rem 3rem;
             font-size: 1.2rem;
         }

@@ -56,10 +56,6 @@
     background-color: $color-grey;
     // clip-path: polygon(0% 0%, 100% 25vh, 100% 100%, 0% 100%);
 
-    @include small {
-
-    }
-
     &__images {
         margin-top: 2rem;
         width: 80%;
@@ -71,15 +67,15 @@
             box-shadow: 0 .2rem 1.5rem $color-black;
         }
 
-        @include small {
+        @include respond-to(tiny) {
             width: 70%;
         }
 
-        @include phablet {
+        @include respond-to(small) {
             width: 60%;
         }
 
-        @include tablet {
+        @include respond-to(medium) {
             width: 50%;
         }
     }
@@ -91,7 +87,7 @@
     padding: 10rem 1.5rem;
     background-color: $color-grey-light;
 
-    @include small {
+    @include respond-to(tiny) {
         padding: 10rem 0rem;
     }
 
@@ -113,25 +109,25 @@
             box-shadow: 0 .5rem 1.5rem rgba($color-black, .15);
             transition: transform .2s;
 
-            @include small {
+            @include respond-to(tiny) {
                 font-size: 1.7rem;
                 width: 80%;
                 margin-left: 10%;
             }
             
-            @include phablet {
+            @include respond-to(small) {
                 font-size: 1.8rem;
                 width: 70%;
                 margin-left: 15%;
             }
 
-            @include medium {
+            @include respond-to(large) {
                 font-size: 2rem;
                 width: 60%;
                 margin-left: 20%;
             }
 
-            @include desktop {
+            @include respond-to(huge) {
                 width: 50%;
                 margin-left: 25%;
             }
@@ -148,7 +144,7 @@
         margin-top: 2rem;
         font-size: 3rem;
 
-        @include tablet {
+        @include respond-to(medium) {
             font-size: 3.5rem;
         }
 
@@ -161,7 +157,7 @@
             text-decoration: none;
             color: $color-black;
 
-            @include tablet {
+            @include respond-to(medium) {
                 color: $color-grey-dark;
             }
         }
