@@ -24,20 +24,20 @@ body {
         animation: moveInRight 1s ease-out;
 
         @include respond-to(small) {
-            font-size: 5rem;
+            font-size: 4rem;
         }
         
         @include respond-to(medium) {
             font-size: 6rem;
         }
 
-        @include respond-to(large) {
-            font-size: 7rem;
-        }
+        // @include respond-to(large) {
+        //     font-size: 7rem;
+        // }
 
-        @include respond-to(huge) {
-            font-size: 8rem;
-        }
+        // @include respond-to(huge) {
+        //     font-size: 8rem;
+        // }
     }
 
     &--sub {

@@ -1,7 +1,6 @@
 .section-about {
     opacity: 0;
     text-align: center;
-    // margin-top: -20vh;
     padding: $padding-sections;
     background-color: color(grey-light);
 
@@ -11,6 +10,13 @@
         li {
             display: inline;
         }
+    }
+
+    &__images {
+        height: 5rem;
+        position: relative;
+        top: 10px;
+        width: 5rem;
     }
 
     &__skills {
@@ -43,6 +49,9 @@
         }
         &--sass:hover {
             color: color(sass);
+        }
+        &--react:hover {
+            color: color(react);
         }
     }
 }
