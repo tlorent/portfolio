@@ -26,10 +26,6 @@
     &:hover {
         transform: translateY(-.2rem);
         box-shadow: 0 1rem 2rem rgba(color(dark-black), .4);
-
-        // @include respond-to(small) {
-        //     box-shadow: 0 1rem 2rem rgba(color(light-white), .4);
-        // }
     }
 
     &:active {
