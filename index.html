@@ -1,295 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Portfolio Tim Lorent</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Tim Lorent</title>
 
-		<link
-			href="https://fonts.googleapis.com/css?family=Poppins:200,400,700,800|Roboto:300,400"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-			crossorigin="anonymous"
-		/>
-	</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,400,700,800|Roboto:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
 
-	<body>
-		<header class="header">
-			<div class="header__text-box">
-				<h1 class="heading-primary">
-					<span class="heading-primary--main">Hey, I'm Tim!</span>
-					<span class="heading-primary--sub">Welcome to my portfolio</span>
-				</h1>
+  <body>
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Hey, I'm Tim!</span>
+          <span class="heading-primary--sub">Welcome to my portfolio</span>
+        </h1>
 
-				<a href="#about" class="btn btn--white btn--animated"
-					>Show me the goods</a
-				>
-			</div>
-		</header>
+        <a href="#about" class="btn btn--white btn--animated"
+          >Show me the goods</a
+        >
+      </div>
+    </header>
 
-		<section class="section-about js--wp-about" id="about">
-			<h2 class="heading-secondary">Who</h2>
-			<p class="copy copy--large">
-				Tim Lorent, 28. Coder by day, DJ/producer by night. BSc Information
-				Science. Rebuilt Twitter. Loves React, Sass, Webpack, Emmet. 800+
-				<a
-					href="https://open.spotify.com/user/timlorent/playlist/0C3G1zXDt47aNR9B0Wi2XF?si=0F6q0XztRmu7x_H08XYp9g"
-					class="link link--spotify"
-					target="_blank"
-					>Spotify playlist</a
-				>
-				followers. Travel, weightlifting, CrossFit, yoga.
-				<a
-					href="https://soundcloud.com/timlorent"
-					class="link link--soundcloud"
-					target="_blank"
-					>Music is life</a
-				>.
-			</p>
-			<ul class="section-about__list">
-				<li>
-					<i
-						class="fab fa-css3-alt section-about__skills section-about__skills--css"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fab fa-html5 section-about__skills section-about__skills--html"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fab fa-js section-about__skills section-about__skills--js"
-					></i>
-				</li>
-				<li>
-					<i
-						class="
-                        fab 
-                        fa-react
-                        section-about__skills
-                        section-about__skills--react
-                        "
-					>
-					</i>
-				</li>
-				<li>
-					<i
-						class="fab fa-sass section-about__skills section-about__skills--sass"
-					></i>
-				</li>
-			</ul>
-			<ul class="section-about__list">
-				<li>
-					<i
-						class="fab fa-gulp section-about__skills section-about__skills--gulp"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fab fa-npm section-about__skills section-about__skills--npm"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fab fa-git section-about__skills section-about__skills--git"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fab fa-php section-about__skills section-about__skills--php"
-					></i>
-				</li>
-				<li>
-					<i
-						class="fas fa-database section-about__skills section-about__skills--sql"
-					></i>
-				</li>
-			</ul>
-			<ul class="section-about__list">
-				<li>
-					<img
-						src="img/redux-icon.png"
-						alt="redux icon"
-						class="section-about__images"
-					/>
-				</li>
-				<li>
-					<img
-						src="img/webpack-icon.png"
-						alt="webpack icon"
-						class="section-about__images
-                    "
-					/>
-				</li>
-				<li>
-					<img
-						src="img/typescript-icon.png"
-						alt="webpack icon"
-						class="section-about__images"
-					/>
-				</li>
-				<li>
-					<img
-						src="img/jest-icon.png"
-						alt="jest icon"
-						class="section-about__images"
-					/>
-				</li>
-				<li>
-					<img
-						src="img/travis-icon.png"
-						alt="travis ci icon"
-						class="section-about__images"
-					/>
-				</li>
-			</ul>
-		</section>
+    <section class="section-about js--wp-about" id="about">
+      <h2 class="heading-secondary">Who</h2>
+      <p class="copy copy--large">
+        Tim Lorent, <span class="copy--age"></span>. Coder by day, DJ/producer
+        by night. BSc Information Science. Rebuilt Twitter. Loves React,
+        TypeScript, styled-components, GraphQL, and the JAMStack. 900+
+        <a
+          href="https://open.spotify.com/user/timlorent/playlist/0C3G1zXDt47aNR9B0Wi2XF?si=0F6q0XztRmu7x_H08XYp9g"
+          class="link link--spotify"
+          target="_blank"
+          >Spotify playlist</a
+        >
+        followers. Travel, CrossFit, weightlifting, snow.
+        <a
+          href="https://soundcloud.com/timlorent"
+          class="link link--soundcloud"
+          target="_blank"
+          >Music is life</a
+        >.
+      </p>
+      <ul class="section-about__list">
+        <li>
+          <i
+            class="fab fa-css3-alt section-about__skills section-about__skills--css"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-html5 section-about__skills section-about__skills--html"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-js section-about__skills section-about__skills--js"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-react section-about__skills section-about__skills--react"
+          >
+          </i>
+        </li>
+        <li>
+          <img
+            src="img/typescript-icon.png"
+            alt="webpack icon"
+            class="section-about__images"
+          />
+        </li>
+      </ul>
+      <ul class="section-about__list">
+        <li>
+          <img
+            src="img/apollo.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/GraphQL_Logo.svg.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/sc.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/gatsby.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/netlify.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+      </ul>
+      <ul class="section-about__list">
+        <li>
+          <i
+            class="fab fa-gulp section-about__skills section-about__skills--gulp"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-npm section-about__skills section-about__skills--npm"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-git section-about__skills section-about__skills--git"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-php section-about__skills section-about__skills--php"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fas fa-database section-about__skills section-about__skills--sql"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fab fa-sass section-about__skills section-about__skills--sass"
+          ></i>
+        </li>
+      </ul>
+      <ul class="section-about__list">
+        <li>
+          <img
+            src="img/redux-icon.png"
+            alt="redux icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/webpack-icon.png"
+            alt="webpack icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/jest-icon.png"
+            alt="jest icon"
+            class="section-about__images"
+          />
+        </li>
+        <li>
+          <img
+            src="img/travis-icon.png"
+            alt="travis ci icon"
+            class="section-about__images"
+          />
+        </li>
+      </ul>
+    </section>
 
-		<section class="section-projects js--wp-projects">
-			<h2 class="heading-secondary">What</h2>
-			<div class="row">
-				<div>
-					<h3 class="heading-tertiary">Ghibli React</h3>
-					<a href="https://ghibli-react.netlify.com/" target="_blank">
-						<img src="img/ghibli-react.png" alt="ghibli react website" class="section-projects__images">
-					</a>
-				</div>
-				<div>
-					<h3 class="heading-tertiary">Oberbeer</h3>
-					<a href="https://oberbeer.now.sh/" target="_blank">
-						<img
-							src="img/oberbeer.jpg"
-							alt="oberbeer website"
-							class="section-projects__images"
-						/>
-					</a>
-				</div>
-				<div>
-					<h3 class="heading-tertiary">Twitter Rebuild</h3>
-					<a href="https://vimeo.com/268659388" target="_blank">
-						<img
-							src="img/twitter.png"
-							alt="Twitter Rebuild"
-							class="section-projects__images"
-						/>
-					</a>
-				</div>
-				<div>
-					<h3 class="heading-tertiary">Movie Guessing Game</h3>
-					<a href="http://moviegame.timlorent.nl/" target="_blank">
-						<img
-							src="img/moviegame.jpg"
-							alt="Movie Guessing Game"
-							class="section-projects__images"
-						/>
-					</a>
-				</div>
-				<div>
-					<h3 class="heading-tertiary">Restaurant Website</h3>
-					<a
-						href="https://tlorent.github.io/restaurant-website/"
-						target="_blank"
-					>
-						<img
-							src="img/restaurant-website.jpg"
-							alt="Restaurant website"
-							class="section-projects__images"
-						/>
-					</a>
-				</div>
-				<div>
-					<h3 class="heading-tertiary">Resume Builder</h3>
-					<a href="https://vimeo.com/268659573" target="_blank">
-						<img
-							src="img/turingcv.png"
-							alt="Resume builder"
-							class="section-projects__images"
-						/>
-					</a>
-				</div>
-			</div>
-		</section>
+    <section class="section-projects js--wp-projects">
+      <h2 class="heading-secondary">What</h2>
+      <div class="row">
+        <div>
+          <h3 class="heading-tertiary">Gatsby Fitness Site</h3>
+          <a href="https://gatsby-fitness-site.netlify.app/" target="_blank">
+            <img
+              src="img/gatsby-fitness-site.png"
+              alt="gatsby fitness site"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Ghibli React</h3>
+          <a href="https://ghibli-react.netlify.app/" target="_blank">
+            <img
+              src="img/ghibli-react.png"
+              alt="ghibli react website"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Oberbeer</h3>
+          <a href="https://oberbeer.now.sh/" target="_blank">
+            <img
+              src="img/oberbeer.jpg"
+              alt="oberbeer website"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Twitter Rebuild</h3>
+          <a href="https://vimeo.com/268659388" target="_blank">
+            <img
+              src="img/twitter.png"
+              alt="Twitter Rebuild"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Movie Guessing Game</h3>
+          <a href="http://moviegame.timlorent.nl/" target="_blank">
+            <img
+              src="img/moviegame.jpg"
+              alt="Movie Guessing Game"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Restaurant Website</h3>
+          <a
+            href="https://tlorent.github.io/restaurant-website/"
+            target="_blank"
+          >
+            <img
+              src="img/restaurant-website.jpg"
+              alt="Restaurant website"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+        <div>
+          <h3 class="heading-tertiary">Resume Builder</h3>
+          <a href="https://vimeo.com/268659573" target="_blank">
+            <img
+              src="img/turingcv.png"
+              alt="Resume builder"
+              class="section-projects__images"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
 
-		<section class="section-motivation js--wp-motivation">
-			<h2 class="heading-secondary">Why</h2>
-			<p class="copy copy--large"></p>
-			<p class="copy copy--large">
-				Let's find out why we would make a good match and what I can bring to
-				the table. Some comments:
-			</p>
-			<ul class="section-motivation__list js--wp-comments">
-				<li>
-					&ldquo;Tim is interested in both front-end and back-end, but is right
-					now more of a front-end guy.&rdquo; &mdash; friend 1
-				</li>
-				<li>
-					&ldquo;He would rather learn code all weekend than go to the park with
-					me. <i class="far fa-frown"></i>&rdquo; &mdash; girlfriend
-				</li>
-				<li>
-					&ldquo;Because of his BSc Information Science, he knows how to
-					communicate with both sides &mdash; the coders and the suits!&rdquo;
-					&mdash; UvA teacher 1
-				</li>
-				<li>
-					&ldquo;He clearly also likes UX and trying out design, he aced my
-					Interaction Design course <i class="far fa-thumbs-up"></i>.&rdquo;
-					&mdash; UvA teacher 2
-				</li>
-				<li>
-					&ldquo;He loves to make progress every day, even just that 1%. Coding
-					is exactly the challenge that he needs in life, as this is a
-					profession that does not slow down and one where you constantly need
-					to learn new things to keep up. He has an insatiable hunger for more
-					knowledge and becoming a better coder, learning new CSS and JavaScript
-					tricks, and wants to get into <i class="fab fa-vuejs"></i> &amp;
-					<i class="fab fa-node"></i> soon.&rdquo; &mdash; Tim
-				</li>
-				<li>
-					&ldquo;Tim has his flaws: he does not always have a lot of patience
-					and sometimes forgets to slow down when he’s building new websites or
-					apps.&rdquo; &mdash; mother
-				</li>
-				<li>
-					&ldquo;I love his <i class="fab fa-spotify"></i> playlist!&rdquo;
-					&mdash; anonymous Spotify user
-				</li>
-			</ul>
+    <section class="section-motivation js--wp-motivation">
+      <h2 class="heading-secondary">Why</h2>
+      <p class="copy copy--large"></p>
+      <p class="copy copy--large">
+        Let's find out why we would make a good match and what I can bring to
+        the table. Some comments:
+      </p>
+      <ul class="section-motivation__list js--wp-comments">
+        <li>
+          &ldquo;Tim is interested in both front-end and back-end, but is right
+          now more of a front-end guy.&rdquo; &mdash; friend 1
+        </li>
+        <li>
+          &ldquo;He would rather learn code all weekend than go to the park with
+          me <i class="far fa-frown"></i>.&rdquo; &mdash; girlfriend
+        </li>
+        <li>
+          &ldquo;Because of his BSc Information Science, he knows how to
+          communicate with both sides &mdash; the coders and the suits!&rdquo;
+          &mdash; UvA teacher 1
+        </li>
+        <li>
+          &ldquo;He clearly also likes UX and trying out design, he aced my
+          Interaction Design course <i class="far fa-thumbs-up"></i>.&rdquo;
+          &mdash; UvA teacher 2
+        </li>
+        <li>
+          &ldquo;He loves to make progress every day, even just that 1%. Coding
+          is exactly the challenge that he needs in life, as this is a
+          profession that does not slow down and one where you constantly need
+          to learn new things to keep up. He has an insatiable hunger for more
+          knowledge and becoming a better coder, learning new CSS and JavaScript
+          tricks.&rdquo; &mdash; Tim
+        </li>
+        <li>
+          &ldquo;Tim has his flaws: he does not always have a lot of patience
+          and sometimes forgets to slow down when he’s building new websites or
+          apps.&rdquo; &mdash; mother
+        </li>
+        <li>
+          &ldquo;I love his <i class="fab fa-spotify"></i> playlist!&rdquo;
+          &mdash; anonymous Spotify user
+        </li>
+      </ul>
 
-			<p class="copy copy--large">
-				If this sounds interesting, maybe we can have a
-				<i class="fas fa-coffee"></i> or a <i class="far fa-comments"></i>?
-			</p>
+      <p class="copy copy--large">
+        If this sounds interesting, maybe we can have a
+        <i class="fas fa-coffee"></i> or a <i class="far fa-comments"></i>?
+      </p>
 
-			<h3 class="heading-tertiary">Contact</h3>
-			<ul class="section-motivation__icons js--wp-contact-icons">
-				<li>
-					<a href="https://github.com/tlorent" target="blank"
-						><i class="fab fa-github section-motivation__icons--git"></i
-					></a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/timlorent/" target="blank"
-						><i class="fab fa-linkedin section-motivation__icons--linkedin"></i
-					></a>
-				</li>
-				<li>
-					<a href="mailto:tim.lorent@icloud.com"
-						><i class="far fa-envelope section-motivation__icons--mail"></i
-					></a>
-				</li>
-			</ul>
-		</section>
+      <h3 class="heading-tertiary">Contact</h3>
+      <ul class="section-motivation__icons js--wp-contact-icons">
+        <li>
+          <a href="https://github.com/tlorent" target="blank"
+            ><i class="fab fa-github section-motivation__icons--git"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/timlorent/" target="blank"
+            ><i class="fab fa-linkedin section-motivation__icons--linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:tim.lorent@icloud.com"
+            ><i class="far fa-envelope section-motivation__icons--mail"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="./js/vendors/jquery.waypoints.min.js"></script>
-		<script src="./js/script.js"></script>
-	</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/vendors/jquery.waypoints.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
